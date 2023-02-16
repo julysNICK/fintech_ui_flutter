@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import 'components/bank_cards.dart';
 import 'components/header.dart';
+import 'components/latest.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -27,6 +28,7 @@ class HomePage extends StatelessWidget {
             children: const [
               Header(),
               BankCards(),
+              LastestTansactions(),
             ],
           )
         ],
